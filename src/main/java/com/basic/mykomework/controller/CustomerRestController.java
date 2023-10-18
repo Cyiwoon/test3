@@ -16,7 +16,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RequestMapping("/api/customer")
 public class CustomerRestController {
-    private final CustmoerService custmoerService;
+    private final CustmoerService custmoerService;//서비스들은 다 DTO출력
 
     @PostMapping
     public CustomerResDTO create(@RequestBody CustomerReqDTO customerReqDTO){

@@ -15,5 +15,6 @@ public class MyHomeworkApplication {
 	@Bean
 	public ModelMapper modelMapper(){
 		return new ModelMapper();
-	}
+	}//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	//entity와 dto 변환
 }
